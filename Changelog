@@ -1,0 +1,212 @@
+# Changelog
+
+All notable changes to Prayer Times Notifier will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### In Development
+- Windows WSL support
+- Multiple city support with command-line arguments
+- Voice notifications (espeak/festival)
+- Web dashboard interface
+- Email notification integration
+- Quranic ayah display with notifications
+
+---
+
+## [1.1.0] - 01.04.2026
+
+### Added ✨
+
+#### KDE Plasma 6 Support
+- Native KDE Plasma 6 integration using `kdialog`
+- Automatic desktop environment detection
+- System tray notifications with auto-dismiss
+- Support for both X11 and Wayland sessions
+- Beautiful KDE theming and styling
+
+#### Distribution Support
+- **Arch Linux** - Full support with pacman
+- **Fedora/RHEL/CentOS** - Complete dnf integration
+- **Manjaro** - pacman-based installation
+- **Cachy OS** - pacman-based installation  
+- **Artix Linux** - pacman and OpenRC support
+- **NixOS** - Nix package integration
+- **Alpine Linux** - apk package support
+- **OpenSUSE** - zypper package support
+
+#### Documentation
+- New `DISTRO_GUIDE.md` - Comprehensive distribution-specific installation guide
+- New `KDE_PLASMA_GUIDE.md` - Detailed KDE Plasma 6 setup and troubleshooting
+- Updated `README.md` with distro installation instructions
+- Updated `QUICK_START.md` with multiple distro support
+
+#### Script Improvements
+- Enhanced dependency checking with better error messages
+- Desktop environment auto-detection
+- Fallback notification systems
+- Improved error handling and validation
+- Better terminal output formatting
+- Display detected desktop environment on run
+
+### Changed 🔄
+
+- Unified notification system supporting multiple backends
+- More robust API error handling
+- Improved crontab examples with environment variables
+- Better troubleshooting documentation
+
+### Fixed 🐛
+
+- Notification display on systems without notify-send
+- KDE Plasma environment detection issues
+- Crontab environment variable handling
+- API response validation
+
+---
+
+## [1.0.0] - 31.03.2026
+
+### Initial Release ✨
+
+#### Added
+- Initial bash script for prayer time notifications
+- Support for Prishtina, Kosovo (optimized for this location)
+- Adhan API integration for accurate prayer times
+- Desktop notifications using notify-send
+- Configurable prayer calculation methods (11 methods supported)
+- Timezone configuration support
+- Cron job integration guide
+- Comprehensive README documentation
+- Quick Start guide
+- Contributing guidelines
+- MIT License
+
+#### Features
+- ✅ Fetch current day's prayer times from Adhan API
+- ✅ Display all prayer times in terminal
+- ✅ Send desktop notifications for prayer times
+- ✅ Support for multiple calculation methods
+- ✅ Customizable timezone settings
+- ✅ Lightweight and minimal dependencies
+- ✅ No database required
+- ✅ Simple cron job integration
+
+#### Documentation
+- README.md with full documentation
+- QUICK_START.md for immediate setup
+- CONTRIBUTING.md for developers
+- Inline code comments and explanations
+
+#### Requirements
+- Bash 5.0+
+- curl
+- jq
+- libnotify (notify-send) or kdialog (KDE Plasma)
+
+---
+
+## Version Format
+
+### [X.Y.Z] - YYYY-MM-DD
+
+**X = Major** (Breaking changes)
+**Y = Minor** (New features, backwards compatible)
+**Z = Patch** (Bug fixes, backwards compatible)
+
+---
+
+## Types of Changes
+
+- **Added** - New features
+- **Changed** - Changes in existing functionality
+- **Deprecated** - Soon-to-be removed features
+- **Removed** - Now removed features
+- **Fixed** - Any bug fixes
+- **Security** - Security vulnerability fixes
+
+---
+
+## Release Notes
+
+### How Releases Work
+1. Update version in script
+2. Update this CHANGELOG.md
+3. Create git tag: `git tag -a v1.0.0 -m "Release v1.0.0"`
+4. Push tag: `git push origin v1.0.0`
+5. Create GitHub Release with release notes
+
+### Version Numbering
+- **v1.0.0** - First stable release
+- **v1.1.0** - New features added
+- **v1.1.1** - Bug fixes
+- **v2.0.0** - Major breaking changes
+
+---
+
+## Contributors
+
+List of contributors for each version:
+
+### v1.0.0
+- [@yourusername](https://github.com/yourusername) - Initial development
+
+---
+
+## Timeline
+
+| Version | Release Date | Status |
+|---------|-------------|--------|
+| 1.0.0 | 01.04.2026 | ✅ Released |
+| 1.1.0 | TBD | 🚧 In Development |
+| 2.0.0 | TBD | 📋 Planned |
+
+---
+
+## Future Roadmap
+
+### Q1 2027
+- [ ] macOS support
+- [ ] Improved error handling
+- [ ] Additional language support
+
+### Q2 2027
+- [ ] Multiple cities support
+- [ ] Web interface
+- [ ] Email notifications
+
+### Q3 2027
+- [ ] Mobile app
+- [ ] Advanced scheduling
+- [ ] Prayer time calendar export
+
+---
+
+## How to Get Help
+
+- 📖 Read the [README.md](README.md)
+- ⚡ Check [QUICK_START.md](QUICK_START.md)
+- 🐛 Report bugs: [Issues](https://github.com/yourusername/prayer-times-notifier/issues)
+- 💬 Ask questions: [Discussions](@SokolSaitiAlb/prayer-times-notifier/discussions)
+
+---
+
+## Security Policy
+
+For security vulnerabilities, please email: sssokolsaiti@gmail.com
+
+Do not open public issues for security vulnerabilities.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
+
+---
+
+**Last Updated:** 01.04.2026
+**Maintained by:** @SokolSaitiAlb
