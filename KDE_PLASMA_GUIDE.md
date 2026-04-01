@@ -388,6 +388,6 @@ For KDE Plasma specific issues:
 
 ---
 
-**Last Updated:** 2024-01-15
+**Last Updated:** 01.04.2026
 **KDE Plasma Support:** v5.27 - v6.1+
 **Maintained by:** [@SokolSaitiAlb](https://github.com/SokolSaitiAlb)
