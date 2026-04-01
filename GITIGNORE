@@ -1,0 +1,94 @@
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.atom/
+.project
+.classpath
+.c9/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Node (if using any node-based tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# OS-specific files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Configuration files with sensitive data (don't commit!)
+.env
+.env.local
+config.local.sh
+secrets.sh
+
+# Cache directories
+.cache/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Package manager locks (optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Audio and large media files
+*.mp3
+*.wav
+*.flac
+*.mkv
+*.mp4
+
+# Build outputs
+build/
+dist/
+*.o
+
+# Test coverage
+coverage/
+htmlcov/
+.coverage
+
+# Generated files
+*.swp
+.DS_Store
+
+# User-specific configuration
+user.conf
+local.conf
